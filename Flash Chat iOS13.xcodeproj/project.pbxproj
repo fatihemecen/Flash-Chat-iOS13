@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628176235DEE8100E35CAF /* AppDelegate.swift */; };
 		0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628178235DEE8100E35CAF /* SceneDelegate.swift */; };
-		0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B62817C235DEE8100E35CAF /* Main.storyboard */; };
 		0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B62817F235DEE8400E35CAF /* Assets.xcassets */; };
 		0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */; };
 		0B62818B235DF00000E35CAF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818A235DF00000E35CAF /* WelcomeViewController.swift */; };
@@ -17,13 +16,58 @@
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
+		A0048A6E2B3716EC00FC32D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0048A6D2B3716EC00FC32D6 /* GoogleService-Info.plist */; };
+		A0048A712B37177100FC32D6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A702B37177100FC32D6 /* FirebaseAnalytics */; };
+		A0048A732B37177100FC32D6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A722B37177100FC32D6 /* FirebaseAnalyticsOnDeviceConversion */; };
+		A0048A752B37177100FC32D6 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A742B37177100FC32D6 /* FirebaseAnalyticsSwift */; };
+		A0048A772B37177100FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A762B37177100FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		A0048A792B37177100FC32D6 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A782B37177100FC32D6 /* FirebaseAppCheck */; };
+		A0048A7B2B37184C00FC32D6 /* GhostTypewriter in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A7A2B37184C00FC32D6 /* GhostTypewriter */; settings = {ATTRIBUTES = (Required, ); }; };
+		A0048A7D2B37203600FC32D6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A7C2B37203600FC32D6 /* FirebaseAnalytics */; };
+		A0048A7F2B37203600FC32D6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A7E2B37203600FC32D6 /* FirebaseAnalyticsOnDeviceConversion */; };
+		A0048A812B37203600FC32D6 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A802B37203600FC32D6 /* FirebaseAnalyticsSwift */; };
+		A0048A832B37203600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A822B37203600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		A0048A852B37203600FC32D6 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A842B37203600FC32D6 /* FirebaseAppCheck */; };
+		A0048A872B37206600FC32D6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A862B37206600FC32D6 /* FirebaseAnalytics */; };
+		A0048A892B37206600FC32D6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A882B37206600FC32D6 /* FirebaseAnalyticsOnDeviceConversion */; };
+		A0048A8B2B37206600FC32D6 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A8A2B37206600FC32D6 /* FirebaseAnalyticsSwift */; };
+		A0048A8D2B37206600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A8C2B37206600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		A0048A8F2B37206600FC32D6 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A8E2B37206600FC32D6 /* FirebaseAppCheck */; };
+		A0048A912B37206600FC32D6 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A902B37206600FC32D6 /* FirebaseAppDistribution-Beta */; };
+		A0048A932B37206600FC32D6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A922B37206600FC32D6 /* FirebaseAuth */; };
+		A0048A952B37206600FC32D6 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A942B37206600FC32D6 /* FirebaseAuthCombine-Community */; };
+		A0048A972B37206600FC32D6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A962B37206600FC32D6 /* FirebaseCrashlytics */; };
+		A0048A992B37206600FC32D6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A982B37206600FC32D6 /* FirebaseDatabase */; };
+		A0048A9B2B37206600FC32D6 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A9A2B37206600FC32D6 /* FirebaseDatabaseSwift */; };
+		A0048A9D2B37206600FC32D6 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A9C2B37206600FC32D6 /* FirebaseDynamicLinks */; };
+		A0048A9F2B37206600FC32D6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A0048A9E2B37206600FC32D6 /* FirebaseFirestore */; };
+		A0048AA12B37206600FC32D6 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AA02B37206600FC32D6 /* FirebaseFirestoreCombine-Community */; };
+		A0048AA32B37206600FC32D6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AA22B37206600FC32D6 /* FirebaseFirestoreSwift */; };
+		A0048AA52B37206600FC32D6 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AA42B37206600FC32D6 /* FirebaseFunctions */; };
+		A0048AA72B37206600FC32D6 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AA62B37206600FC32D6 /* FirebaseFunctionsCombine-Community */; };
+		A0048AA92B37206600FC32D6 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AA82B37206600FC32D6 /* FirebaseInAppMessaging-Beta */; };
+		A0048AAB2B37206600FC32D6 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AAA2B37206600FC32D6 /* FirebaseInAppMessagingSwift-Beta */; };
+		A0048AAD2B37206600FC32D6 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AAC2B37206600FC32D6 /* FirebaseInstallations */; };
+		A0048AAF2B37206600FC32D6 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AAE2B37206600FC32D6 /* FirebaseMLModelDownloader */; };
+		A0048AB12B37206600FC32D6 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AB02B37206600FC32D6 /* FirebaseMessaging */; };
+		A0048AB32B37206600FC32D6 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AB22B37206600FC32D6 /* FirebasePerformance */; };
+		A0048AB52B37206600FC32D6 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AB42B37206600FC32D6 /* FirebaseRemoteConfig */; };
+		A0048AB72B37206600FC32D6 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AB62B37206600FC32D6 /* FirebaseRemoteConfigSwift */; };
+		A0048AB92B37206600FC32D6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A0048AB82B37206600FC32D6 /* FirebaseStorage */; };
+		A0048ABB2B37206600FC32D6 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A0048ABA2B37206600FC32D6 /* FirebaseStorageCombine-Community */; };
+		A0048AC82B38235400FC32D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048AC72B38235400FC32D6 /* Constants.swift */; };
+		A0048ACA2B3826CF00FC32D6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048AC92B3826CF00FC32D6 /* Message.swift */; };
+		A0048ACD2B38279200FC32D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0048ACF2B38279200FC32D6 /* Main.storyboard */; };
+		A053DC3E2B2E07E000F47678 /* GhostTypewriter in Frameworks */ = {isa = PBXBuildFile; productRef = A053DC3D2B2E07E000F47678 /* GhostTypewriter */; };
+		A0F1880F2B407922003A88D0 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1880D2B407922003A88D0 /* MessageCell.swift */; };
+		A0F188102B407922003A88D0 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F1880E2B407922003A88D0 /* MessageCell.xib */; };
+		F6E2D7C5FCBC32209DD283A4 /* libPods-Flash Chat iOS13.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C777D928EA0E5053AF1FAB /* libPods-Flash Chat iOS13.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B628176235DEE8100E35CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B628178235DEE8100E35CAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B62817D235DEE8100E35CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B62817F235DEE8400E35CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B628182235DEE8400E35CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B628184235DEE8400E35CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +76,16 @@
 		0B62818E235DF01000E35CAF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0B628190235DF01B00E35CAF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		0B62819D235F0F4D00E35CAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		40C777D928EA0E5053AF1FAB /* libPods-Flash Chat iOS13.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flash Chat iOS13.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57EF91A1F9B79A3E40B10E6B /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
+		A0048A6D2B3716EC00FC32D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0048AC72B38235400FC32D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A0048AC92B3826CF00FC32D6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Flash Chat iOS13/Message.swift"; sourceTree = SOURCE_ROOT; };
+		A0048ACE2B38279200FC32D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0048AD02B38279200FC32D6 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Main.xcstrings; sourceTree = "<group>"; };
+		A0F1880D2B407922003A88D0 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		A0F1880E2B407922003A88D0 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		A5B098C9DA71F28D0F090F1C /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +93,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0048AAD2B37206600FC32D6 /* FirebaseInstallations in Frameworks */,
+				A0048AA92B37206600FC32D6 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				A0048ABB2B37206600FC32D6 /* FirebaseStorageCombine-Community in Frameworks */,
+				A0048AB52B37206600FC32D6 /* FirebaseRemoteConfig in Frameworks */,
+				A0048AB32B37206600FC32D6 /* FirebasePerformance in Frameworks */,
+				A0048AB12B37206600FC32D6 /* FirebaseMessaging in Frameworks */,
+				A0048A9B2B37206600FC32D6 /* FirebaseDatabaseSwift in Frameworks */,
+				A0048A9F2B37206600FC32D6 /* FirebaseFirestore in Frameworks */,
+				A0048A872B37206600FC32D6 /* FirebaseAnalytics in Frameworks */,
+				A0048AB92B37206600FC32D6 /* FirebaseStorage in Frameworks */,
+				A0048AA32B37206600FC32D6 /* FirebaseFirestoreSwift in Frameworks */,
+				A0048AA12B37206600FC32D6 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				A0048A772B37177100FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				A0048A852B37203600FC32D6 /* FirebaseAppCheck in Frameworks */,
+				A053DC3E2B2E07E000F47678 /* GhostTypewriter in Frameworks */,
+				A0048A7B2B37184C00FC32D6 /* GhostTypewriter in Frameworks */,
+				A0048A972B37206600FC32D6 /* FirebaseCrashlytics in Frameworks */,
+				A0048A812B37203600FC32D6 /* FirebaseAnalyticsSwift in Frameworks */,
+				A0048A712B37177100FC32D6 /* FirebaseAnalytics in Frameworks */,
+				A0048AA52B37206600FC32D6 /* FirebaseFunctions in Frameworks */,
+				A0048A892B37206600FC32D6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				A0048A792B37177100FC32D6 /* FirebaseAppCheck in Frameworks */,
+				A0048AAF2B37206600FC32D6 /* FirebaseMLModelDownloader in Frameworks */,
+				A0048AB72B37206600FC32D6 /* FirebaseRemoteConfigSwift in Frameworks */,
+				A0048A8D2B37206600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				A0048A732B37177100FC32D6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				A0048A932B37206600FC32D6 /* FirebaseAuth in Frameworks */,
+				A0048A992B37206600FC32D6 /* FirebaseDatabase in Frameworks */,
+				A0048A832B37203600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				A0048A912B37206600FC32D6 /* FirebaseAppDistribution-Beta in Frameworks */,
+				A0048A752B37177100FC32D6 /* FirebaseAnalyticsSwift in Frameworks */,
+				A0048A8B2B37206600FC32D6 /* FirebaseAnalyticsSwift in Frameworks */,
+				A0048AA72B37206600FC32D6 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				A0048A9D2B37206600FC32D6 /* FirebaseDynamicLinks in Frameworks */,
+				A0048AAB2B37206600FC32D6 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				A0048A7F2B37203600FC32D6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				F6E2D7C5FCBC32209DD283A4 /* libPods-Flash Chat iOS13.a in Frameworks */,
+				A0048A8F2B37206600FC32D6 /* FirebaseAppCheck in Frameworks */,
+				A0048A952B37206600FC32D6 /* FirebaseAuthCombine-Community in Frameworks */,
+				A0048A7D2B37203600FC32D6 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +145,8 @@
 				0B62819D235F0F4D00E35CAF /* README.md */,
 				0B628175235DEE8100E35CAF /* Flash Chat iOS13 */,
 				0B628174235DEE8100E35CAF /* Products */,
+				5BD771D49AA6FC3663385BE5 /* Pods */,
+				12A431314A24F737AC84ACFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +169,8 @@
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
+				A0048A6D2B3716EC00FC32D6 /* GoogleService-Info.plist */,
+				A0048AC72B38235400FC32D6 /* Constants.swift */,
 			);
 			path = "Flash Chat iOS13";
 			sourceTree = "<group>";
@@ -91,7 +189,9 @@
 		0B628193235DF03400E35CAF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0B62817C235DEE8100E35CAF /* Main.storyboard */,
+				A0048ACF2B38279200FC32D6 /* Main.storyboard */,
+				A0F1880D2B407922003A88D0 /* MessageCell.swift */,
+				A0F1880E2B407922003A88D0 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,8 +199,26 @@
 		0B628194235DF03A00E35CAF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A0048AC92B3826CF00FC32D6 /* Message.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		12A431314A24F737AC84ACFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40C777D928EA0E5053AF1FAB /* libPods-Flash Chat iOS13.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BD771D49AA6FC3663385BE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5B098C9DA71F28D0F090F1C /* Pods-Flash Chat iOS13.debug.xcconfig */,
+				57EF91A1F9B79A3E40B10E6B /* Pods-Flash Chat iOS13.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS13" */;
 			buildPhases = (
+				4CBA45C87A8F43EC210C76B6 /* [CP] Check Pods Manifest.lock */,
 				0B62816F235DEE8100E35CAF /* Sources */,
 				0B628170235DEE8100E35CAF /* Frameworks */,
 				0B628171235DEE8100E35CAF /* Resources */,
@@ -119,6 +238,47 @@
 			dependencies = (
 			);
 			name = "Flash Chat iOS13";
+			packageProductDependencies = (
+				A053DC3D2B2E07E000F47678 /* GhostTypewriter */,
+				A0048A702B37177100FC32D6 /* FirebaseAnalytics */,
+				A0048A722B37177100FC32D6 /* FirebaseAnalyticsOnDeviceConversion */,
+				A0048A742B37177100FC32D6 /* FirebaseAnalyticsSwift */,
+				A0048A762B37177100FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				A0048A782B37177100FC32D6 /* FirebaseAppCheck */,
+				A0048A7A2B37184C00FC32D6 /* GhostTypewriter */,
+				A0048A7C2B37203600FC32D6 /* FirebaseAnalytics */,
+				A0048A7E2B37203600FC32D6 /* FirebaseAnalyticsOnDeviceConversion */,
+				A0048A802B37203600FC32D6 /* FirebaseAnalyticsSwift */,
+				A0048A822B37203600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				A0048A842B37203600FC32D6 /* FirebaseAppCheck */,
+				A0048A862B37206600FC32D6 /* FirebaseAnalytics */,
+				A0048A882B37206600FC32D6 /* FirebaseAnalyticsOnDeviceConversion */,
+				A0048A8A2B37206600FC32D6 /* FirebaseAnalyticsSwift */,
+				A0048A8C2B37206600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				A0048A8E2B37206600FC32D6 /* FirebaseAppCheck */,
+				A0048A902B37206600FC32D6 /* FirebaseAppDistribution-Beta */,
+				A0048A922B37206600FC32D6 /* FirebaseAuth */,
+				A0048A942B37206600FC32D6 /* FirebaseAuthCombine-Community */,
+				A0048A962B37206600FC32D6 /* FirebaseCrashlytics */,
+				A0048A982B37206600FC32D6 /* FirebaseDatabase */,
+				A0048A9A2B37206600FC32D6 /* FirebaseDatabaseSwift */,
+				A0048A9C2B37206600FC32D6 /* FirebaseDynamicLinks */,
+				A0048A9E2B37206600FC32D6 /* FirebaseFirestore */,
+				A0048AA02B37206600FC32D6 /* FirebaseFirestoreCombine-Community */,
+				A0048AA22B37206600FC32D6 /* FirebaseFirestoreSwift */,
+				A0048AA42B37206600FC32D6 /* FirebaseFunctions */,
+				A0048AA62B37206600FC32D6 /* FirebaseFunctionsCombine-Community */,
+				A0048AA82B37206600FC32D6 /* FirebaseInAppMessaging-Beta */,
+				A0048AAA2B37206600FC32D6 /* FirebaseInAppMessagingSwift-Beta */,
+				A0048AAC2B37206600FC32D6 /* FirebaseInstallations */,
+				A0048AAE2B37206600FC32D6 /* FirebaseMLModelDownloader */,
+				A0048AB02B37206600FC32D6 /* FirebaseMessaging */,
+				A0048AB22B37206600FC32D6 /* FirebasePerformance */,
+				A0048AB42B37206600FC32D6 /* FirebaseRemoteConfig */,
+				A0048AB62B37206600FC32D6 /* FirebaseRemoteConfigSwift */,
+				A0048AB82B37206600FC32D6 /* FirebaseStorage */,
+				A0048ABA2B37206600FC32D6 /* FirebaseStorageCombine-Community */,
+			);
 			productName = "Flash Chat iOS13";
 			productReference = 0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */;
 			productType = "com.apple.product-type.application";
@@ -147,6 +307,10 @@
 				Base,
 			);
 			mainGroup = 0B62816A235DEE8100E35CAF;
+			packageReferences = (
+				A053DC3C2B2E07E000F47678 /* XCRemoteSwiftPackageReference "GhostTypewriter" */,
+				A0048A6F2B37177100FC32D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -162,13 +326,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
+				A0F188102B407922003A88D0 /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
+				A0048A6E2B3716EC00FC32D6 /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
-				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
+				A0048ACD2B38279200FC32D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CBA45C87A8F43EC210C76B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash Chat iOS13-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B62816F235DEE8100E35CAF /* Sources */ = {
@@ -179,28 +370,32 @@
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
+				A0048AC82B38235400FC32D6 /* Constants.swift in Sources */,
+				A0048ACA2B3826CF00FC32D6 /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
+				A0F1880F2B407922003A88D0 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0B62817C235DEE8100E35CAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B62817D235DEE8100E35CAF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0B628182235DEE8400E35CAF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A0048ACF2B38279200FC32D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0048ACE2B38279200FC32D6 /* Base */,
+				A0048AD02B38279200FC32D6 /* mul */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -244,7 +439,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -303,7 +498,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -322,16 +517,18 @@
 		};
 		0B628188235DEE8400E35CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B098C9DA71F28D0F090F1C /* Pods-Flash Chat iOS13.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 9U8MACKD3D;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = "Flash Chat iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Flash-Chat-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mfe.Flash-Chat-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -340,16 +537,18 @@
 		};
 		0B628189235DEE8400E35CAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57EF91A1F9B79A3E40B10E6B /* Pods-Flash Chat iOS13.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 9U8MACKD3D;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = "Flash Chat iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Flash-Chat-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mfe.Flash-Chat-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -378,6 +577,191 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0048A6F2B37177100FC32D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+		A053DC3C2B2E07E000F47678 /* XCRemoteSwiftPackageReference "GhostTypewriter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wibosco/GhostTypewriter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0048A702B37177100FC32D6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0048A6F2B37177100FC32D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A0048A722B37177100FC32D6 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0048A6F2B37177100FC32D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		A0048A742B37177100FC32D6 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0048A6F2B37177100FC32D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		A0048A762B37177100FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0048A6F2B37177100FC32D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		A0048A782B37177100FC32D6 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0048A6F2B37177100FC32D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		A0048A7A2B37184C00FC32D6 /* GhostTypewriter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A053DC3C2B2E07E000F47678 /* XCRemoteSwiftPackageReference "GhostTypewriter" */;
+			productName = GhostTypewriter;
+		};
+		A0048A7C2B37203600FC32D6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalytics;
+		};
+		A0048A7E2B37203600FC32D6 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		A0048A802B37203600FC32D6 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalyticsSwift;
+		};
+		A0048A822B37203600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		A0048A842B37203600FC32D6 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAppCheck;
+		};
+		A0048A862B37206600FC32D6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalytics;
+		};
+		A0048A882B37206600FC32D6 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		A0048A8A2B37206600FC32D6 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalyticsSwift;
+		};
+		A0048A8C2B37206600FC32D6 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		A0048A8E2B37206600FC32D6 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAppCheck;
+		};
+		A0048A902B37206600FC32D6 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		A0048A922B37206600FC32D6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		A0048A942B37206600FC32D6 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		A0048A962B37206600FC32D6 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCrashlytics;
+		};
+		A0048A982B37206600FC32D6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseDatabase;
+		};
+		A0048A9A2B37206600FC32D6 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseDatabaseSwift;
+		};
+		A0048A9C2B37206600FC32D6 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseDynamicLinks;
+		};
+		A0048A9E2B37206600FC32D6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestore;
+		};
+		A0048AA02B37206600FC32D6 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		A0048AA22B37206600FC32D6 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestoreSwift;
+		};
+		A0048AA42B37206600FC32D6 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFunctions;
+		};
+		A0048AA62B37206600FC32D6 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		A0048AA82B37206600FC32D6 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		A0048AAA2B37206600FC32D6 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		A0048AAC2B37206600FC32D6 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseInstallations;
+		};
+		A0048AAE2B37206600FC32D6 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMLModelDownloader;
+		};
+		A0048AB02B37206600FC32D6 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMessaging;
+		};
+		A0048AB22B37206600FC32D6 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebasePerformance;
+		};
+		A0048AB42B37206600FC32D6 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseRemoteConfig;
+		};
+		A0048AB62B37206600FC32D6 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		A0048AB82B37206600FC32D6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseStorage;
+		};
+		A0048ABA2B37206600FC32D6 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		A053DC3D2B2E07E000F47678 /* GhostTypewriter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A053DC3C2B2E07E000F47678 /* XCRemoteSwiftPackageReference "GhostTypewriter" */;
+			productName = GhostTypewriter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B62816B235DEE8100E35CAF /* Project object */;
 }

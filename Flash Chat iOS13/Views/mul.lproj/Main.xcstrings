@@ -1,0 +1,162 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "abR-gz-opL.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Password\"; ObjectID = \"abR-gz-opL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Password"
+          }
+        }
+      }
+    },
+    "abR-gz-opL.text" : {
+      "comment" : "Class = \"UITextField\"; text = \"123456\"; ObjectID = \"abR-gz-opL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "123456"
+          }
+        }
+      }
+    },
+    "dWe-nW-2HB.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Log In\"; ObjectID = \"dWe-nW-2HB\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Log In"
+          }
+        }
+      }
+    },
+    "e3X-Pg-CWg.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Register\"; ObjectID = \"e3X-Pg-CWg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Register"
+          }
+        }
+      }
+    },
+    "F21-w0-z4z.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Email\"; ObjectID = \"F21-w0-z4z\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Email"
+          }
+        }
+      }
+    },
+    "F21-w0-z4z.text" : {
+      "comment" : "Class = \"UITextField\"; text = \"1@2.com\"; ObjectID = \"F21-w0-z4z\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1@2.com"
+          }
+        }
+      }
+    },
+    "h2x-tz-C9Y.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Register\"; ObjectID = \"h2x-tz-C9Y\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Register"
+          }
+        }
+      }
+    },
+    "hLb-P9-NkF.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Password\"; ObjectID = \"hLb-P9-NkF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Password"
+          }
+        }
+      }
+    },
+    "oDr-Re-ols.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Log Out\"; ObjectID = \"oDr-Re-ols\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Log Out"
+          }
+        }
+      }
+    },
+    "u72-XV-6FN.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Email\"; ObjectID = \"u72-XV-6FN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Email"
+          }
+        }
+      }
+    },
+    "UWj-GQ-Vph.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Write a message...\"; ObjectID = \"UWj-GQ-Vph\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Write a message..."
+          }
+        }
+      }
+    },
+    "xd2-nu-tMA.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Log In\"; ObjectID = \"xd2-nu-tMA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Log In"
+          }
+        }
+      }
+    },
+    "y7D-jv-BlJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"⚡️FlashChat\"; ObjectID = \"y7D-jv-BlJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "⚡️FlashChat"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
